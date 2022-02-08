@@ -1,4 +1,8 @@
 .PHONY: run
+
+include .env
+export
+
 run:
 	@go run cmd/bot/main.go
 
